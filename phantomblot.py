@@ -4,7 +4,7 @@
 # Author: Rodrigo Nobrega
 # 20190427
 #########################################################################################
-__version__ = 0.002
+__version__ = 0.003
 
 
 # import libraries
@@ -67,6 +67,14 @@ def main():
     print('                         iTunes Music Library API')
     print('===========================================================================\n')
     # '/Users/rodrigo/Google Drive/Personal Stuff/Music Library/2019 iTunes Music Library.xml'
+    print('USAGE:')
+    print('>>> from phantomblot import *')
+    print(">>> mylib = Library('<iTunes Music Library.xml>')")
+    print('>>> mylib.library')
+    print('>>> mylib.getartistlist()')
+    print('>>> ')
+    print('>>> ')
+    print('>>> ')
     print('\n=========================== END OF PROGRAM ==============================--\n')
 
 
